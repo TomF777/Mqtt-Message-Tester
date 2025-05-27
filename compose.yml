@@ -1,0 +1,78 @@
+services:
+
+              
+# ===== MQTT Broker ====
+ mqtt-broker:
+       container_name: MqttBrokerMosquito
+       image:  eclipse-mosquitto:2.0.15
+       ports:
+              - 1883:1883
+              - 9001:9001
+       restart: always
+       volumes:
+              - "./apps_data/mosquitto/config:/mosquitto/config" 
+              - "./apps_data/mosquitto/data:/mosquitto/data" 
+              - "./apps_data/mosquitto/log:/mosquitto/log"
+       networks:
+              - NetworkMqttTester
+              
+              
+ # ===== mqtt trace player =====
+ mqtt-trace-player:
+      container_name: MqttPlayer
+      image: mqtt_message_player_img:0.0.1
+      depends_on:
+             - mqtt-broker
+
+      restart: always
+      volumes:
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+      environment:
+            MQTT_HOST: ${MQTT_HOST}
+            MQTT_PORT: ${MQTT_PORT}
+            MQTT_USERNAME: ${MQTT_USERNAME}
+            MQTT_PASSWORD: ${MQTT_PASSWORD}
+            MQTT_QOS: ${MQTT_QOS}
+            TRACE_NAME: ${TRACE_NAME}
+      networks:
+            - NetworkMqttTester
+            
+ # ===== mqtt message tester =====
+ mqtt-message-tester:
+      container_name: MqttTester
+      image: mqtt_message_tester_img:0.0.1
+      restart: always
+      volumes:
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+      environment:
+            MQTT_HOST: ${MQTT_HOST}
+            MQTT_PORT: ${MQTT_PORT}
+            MQTT_USERNAME: ${MQTT_USERNAME}
+            MQTT_PASSWORD: ${MQTT_PASSWORD}
+            MQTT_QOS: ${MQTT_QOS}
+            TRACE_NAME: ${TRACE_NAME}
+      networks:
+            - NetworkMqttTester
+
+
+# ===== Portainer =====
+ portainer:
+       container_name: Portainer
+       image: portainer/portainer-ce:latest
+       ports:
+              - 9443:9443
+              - 9000:9000
+       restart: unless-stopped
+       volumes:
+              - "./apps_data/portainer/data:/data"
+              - "/var/run/docker.sock:/var/run/docker.sock"
+       networks:
+              - NetworkMqttTester
+
+
+networks:
+       NetworkMqttTester:
+           external: true
+

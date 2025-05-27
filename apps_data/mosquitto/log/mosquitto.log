@@ -1,0 +1,332 @@
+1748352180: mosquitto version 2.0.15 starting
+1748352180: Config loaded from /mosquitto/config/mosquitto.conf.
+1748352180: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1748352180: Create a configuration file which defines a listener to allow remote access.
+1748352180: For more details see https://mosquitto.org/documentation/authentication-methods/
+1748352180: Opening ipv4 listen socket on port 1883.
+1748352180: Opening ipv6 listen socket on port 1883.
+1748352180: mosquitto version 2.0.15 running
+1748352505: mosquitto version 2.0.15 terminating
+1748352505: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748352593: mosquitto version 2.0.15 starting
+1748352593: Config loaded from /mosquitto/config/mosquitto.conf.
+1748352593: Opening ipv4 listen socket on port 1883.
+1748352593: Opening ipv6 listen socket on port 1883.
+1748352593: Opening websockets listen socket on port 9001.
+1748352593: mosquitto version 2.0.15 running
+1748352594: New connection from 192.168.0.123:39782 on port 1883.
+1748352594: Client mqtt-explorer-612c0fef disconnected, not authorised.
+1748352630: New connection from 192.168.0.123:39804 on port 1883.
+1748352630: Client IoT_signal_player disconnected, not authorised.
+1748352631: New connection from 192.168.0.123:39805 on port 1883.
+1748352631: New client connected from 192.168.0.123:39805 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748352635: Client mqtt-explorer-19241c50 disconnected.
+1748352647: New connection from 192.168.0.123:39815 on port 1883.
+1748352647: New client connected from 192.168.0.123:39815 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748352751: New connection from 192.168.0.123:39866 on port 1883.
+1748352751: Client IoT_signal_player disconnected, not authorised.
+1748352872: New connection from 192.168.0.123:39968 on port 1883.
+1748352872: Client IoT_signal_player disconnected, not authorised.
+1748352993: New connection from 192.168.0.123:40120 on port 1883.
+1748352993: Client IoT_signal_player disconnected, not authorised.
+1748353114: New connection from 192.168.0.123:40270 on port 1883.
+1748353114: Client IoT_signal_player disconnected, not authorised.
+1748353235: New connection from 192.168.0.123:40696 on port 1883.
+1748353235: Client IoT_signal_player disconnected, not authorised.
+1748353356: New connection from 192.168.0.123:40900 on port 1883.
+1748353356: Client IoT_signal_player disconnected, not authorised.
+1748353477: New connection from 192.168.0.123:41055 on port 1883.
+1748353477: Client IoT_signal_player disconnected, not authorised.
+1748353598: New connection from 192.168.0.123:41217 on port 1883.
+1748353598: Client IoT_signal_player disconnected, not authorised.
+1748353719: New connection from 192.168.0.123:41352 on port 1883.
+1748353719: Client IoT_signal_player disconnected, not authorised.
+1748353840: New connection from 192.168.0.123:41485 on port 1883.
+1748353840: Client IoT_signal_player disconnected, not authorised.
+1748353961: New connection from 192.168.0.123:41609 on port 1883.
+1748353961: Client IoT_signal_player disconnected, not authorised.
+1748354082: New connection from 192.168.0.123:41755 on port 1883.
+1748354082: Client IoT_signal_player disconnected, not authorised.
+1748354203: New connection from 192.168.0.123:41872 on port 1883.
+1748354203: Client IoT_signal_player disconnected, not authorised.
+1748354324: New connection from 192.168.0.123:42008 on port 1883.
+1748354324: Client IoT_signal_player disconnected, not authorised.
+1748354393: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748354445: New connection from 192.168.0.123:42158 on port 1883.
+1748354445: Client IoT_signal_player disconnected, not authorised.
+1748354566: New connection from 192.168.0.123:42321 on port 1883.
+1748354566: Client IoT_signal_player disconnected, not authorised.
+1748354687: New connection from 192.168.0.123:42471 on port 1883.
+1748354687: Client IoT_signal_player disconnected, not authorised.
+1748354808: New connection from 192.168.0.123:42610 on port 1883.
+1748354808: Client IoT_signal_player disconnected, not authorised.
+1748354930: New connection from 192.168.0.123:42777 on port 1883.
+1748354930: Client IoT_signal_player disconnected, not authorised.
+1748355051: New connection from 192.168.0.123:42917 on port 1883.
+1748355051: Client IoT_signal_player disconnected, not authorised.
+1748355172: New connection from 192.168.0.123:62666 on port 1883.
+1748355172: Client IoT_signal_player disconnected, not authorised.
+1748355293: New connection from 192.168.0.123:62835 on port 1883.
+1748355293: Client IoT_signal_player disconnected, not authorised.
+1748355414: New connection from 192.168.0.123:62984 on port 1883.
+1748355414: Client IoT_signal_player disconnected, not authorised.
+1748355535: New connection from 192.168.0.123:63133 on port 1883.
+1748355535: Client IoT_signal_player disconnected, not authorised.
+1748355656: New connection from 192.168.0.123:63274 on port 1883.
+1748355656: Client IoT_signal_player disconnected, not authorised.
+1748355777: New connection from 192.168.0.123:63406 on port 1883.
+1748355777: Client IoT_signal_player disconnected, not authorised.
+1748355898: New connection from 192.168.0.123:63566 on port 1883.
+1748355898: Client IoT_signal_player disconnected, not authorised.
+1748356019: New connection from 192.168.0.123:63741 on port 1883.
+1748356019: Client IoT_signal_player disconnected, not authorised.
+1748356140: New connection from 192.168.0.123:63883 on port 1883.
+1748356140: Client IoT_signal_player disconnected, not authorised.
+1748356194: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748356261: New connection from 192.168.0.123:64058 on port 1883.
+1748356261: Client IoT_signal_player disconnected, not authorised.
+1748356382: New connection from 192.168.0.123:64199 on port 1883.
+1748356382: Client IoT_signal_player disconnected, not authorised.
+1748356503: New connection from 192.168.0.123:64366 on port 1883.
+1748356503: Client IoT_signal_player disconnected, not authorised.
+1748356624: New connection from 192.168.0.123:64571 on port 1883.
+1748356624: Client IoT_signal_player disconnected, not authorised.
+1748356745: New connection from 192.168.0.123:64746 on port 1883.
+1748356745: Client IoT_signal_player disconnected, not authorised.
+1748356866: New connection from 192.168.0.123:64878 on port 1883.
+1748356866: Client IoT_signal_player disconnected, not authorised.
+1748356987: New connection from 192.168.0.123:48111 on port 1883.
+1748356987: Client IoT_signal_player disconnected, not authorised.
+1748357108: New connection from 192.168.0.123:48294 on port 1883.
+1748357108: Client IoT_signal_player disconnected, not authorised.
+1748357229: New connection from 192.168.0.123:48436 on port 1883.
+1748357229: Client IoT_signal_player disconnected, not authorised.
+1748357350: New connection from 192.168.0.123:48635 on port 1883.
+1748357350: Client IoT_signal_player disconnected, not authorised.
+1748357471: New connection from 192.168.0.123:48928 on port 1883.
+1748357471: Client IoT_signal_player disconnected, not authorised.
+1748357592: New connection from 192.168.0.123:49012 on port 1883.
+1748357592: Client IoT_signal_player disconnected, not authorised.
+1748357713: New connection from 192.168.0.123:49087 on port 1883.
+1748357713: Client IoT_signal_player disconnected, not authorised.
+1748357834: New connection from 192.168.0.123:49159 on port 1883.
+1748357834: Client IoT_signal_player disconnected, not authorised.
+1748357955: New connection from 192.168.0.123:49262 on port 1883.
+1748357955: Client IoT_signal_player disconnected, not authorised.
+1748357995: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748358076: New connection from 192.168.0.123:49359 on port 1883.
+1748358076: Client IoT_signal_player disconnected, not authorised.
+1748358197: New connection from 192.168.0.123:49434 on port 1883.
+1748358197: Client IoT_signal_player disconnected, not authorised.
+1748358318: New connection from 192.168.0.123:49521 on port 1883.
+1748358318: Client IoT_signal_player disconnected, not authorised.
+1748358428: mosquitto version 2.0.15 terminating
+1748358428: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748358935: mosquitto version 2.0.15 starting
+1748358935: Config loaded from /mosquitto/config/mosquitto.conf.
+1748358935: Opening ipv4 listen socket on port 1883.
+1748358935: Opening ipv6 listen socket on port 1883.
+1748358935: Opening websockets listen socket on port 9001.
+1748358935: mosquitto version 2.0.15 running
+1748358937: New connection from 192.168.0.123:50090 on port 1883.
+1748358937: New client connected from 192.168.0.123:50090 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748358937: New connection from 172.19.0.4:56807 on port 1883.
+1748358937: New client connected from 172.19.0.4:56807 as IoT_signal_player (p5, c1, k60, u'mqttbroker').
+1748358939: New connection from 192.168.0.123:50095 on port 1883.
+1748358939: Client IoT_signal_player disconnected, not authorised.
+1748359060: New connection from 192.168.0.123:50181 on port 1883.
+1748359060: Client IoT_signal_player disconnected, not authorised.
+1748359181: New connection from 192.168.0.123:50243 on port 1883.
+1748359181: Client IoT_signal_player disconnected, not authorised.
+1748359302: New connection from 192.168.0.123:50321 on port 1883.
+1748359302: Client IoT_signal_player disconnected, not authorised.
+1748359423: New connection from 192.168.0.123:50386 on port 1883.
+1748359423: Client IoT_signal_player disconnected, not authorised.
+1748359544: New connection from 192.168.0.123:50450 on port 1883.
+1748359544: Client IoT_signal_player disconnected, not authorised.
+1748359665: New connection from 192.168.0.123:50519 on port 1883.
+1748359665: Client IoT_signal_player disconnected, not authorised.
+1748359786: New connection from 192.168.0.123:50626 on port 1883.
+1748359786: Client IoT_signal_player disconnected, not authorised.
+1748359907: New connection from 192.168.0.123:50687 on port 1883.
+1748359907: Client IoT_signal_player disconnected, not authorised.
+1748360028: New connection from 192.168.0.123:50746 on port 1883.
+1748360028: Client IoT_signal_player disconnected, not authorised.
+1748360149: New connection from 192.168.0.123:50810 on port 1883.
+1748360149: Client IoT_signal_player disconnected, not authorised.
+1748360270: New connection from 192.168.0.123:50890 on port 1883.
+1748360271: Client IoT_signal_player disconnected, not authorised.
+1748360392: New connection from 192.168.0.123:50955 on port 1883.
+1748360392: Client IoT_signal_player disconnected, not authorised.
+1748360513: New connection from 192.168.0.123:51016 on port 1883.
+1748360513: Client IoT_signal_player disconnected, not authorised.
+1748360634: New connection from 192.168.0.123:51077 on port 1883.
+1748360634: Client IoT_signal_player disconnected, not authorised.
+1748360735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748360755: New connection from 192.168.0.123:51174 on port 1883.
+1748360755: Client IoT_signal_player disconnected, not authorised.
+1748360876: New connection from 192.168.0.123:51238 on port 1883.
+1748360876: Client IoT_signal_player disconnected, not authorised.
+1748360997: New connection from 192.168.0.123:51302 on port 1883.
+1748360997: Client IoT_signal_player disconnected, not authorised.
+1748361118: New connection from 192.168.0.123:13953 on port 1883.
+1748361118: Client IoT_signal_player disconnected, not authorised.
+1748361239: New connection from 192.168.0.123:14040 on port 1883.
+1748361239: Client IoT_signal_player disconnected, not authorised.
+1748361357: mosquitto version 2.0.15 terminating
+1748361357: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748361564: mosquitto version 2.0.15 starting
+1748361564: Config loaded from /mosquitto/config/mosquitto.conf.
+1748361564: Opening ipv4 listen socket on port 1883.
+1748361564: Opening ipv6 listen socket on port 1883.
+1748361564: Opening websockets listen socket on port 9001.
+1748361564: mosquitto version 2.0.15 running
+1748361571: New connection from 192.168.0.123:14434 on port 1883.
+1748361571: New client connected from 192.168.0.123:14434 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748361585: mosquitto version 2.0.15 terminating
+1748361585: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748362184: mosquitto version 2.0.15 starting
+1748362184: Config loaded from /mosquitto/config/mosquitto.conf.
+1748362184: Opening ipv4 listen socket on port 1883.
+1748362184: Opening ipv6 listen socket on port 1883.
+1748362184: Opening websockets listen socket on port 9001.
+1748362184: mosquitto version 2.0.15 running
+1748362185: New connection from 192.168.0.123:14836 on port 1883.
+1748362185: New client connected from 192.168.0.123:14836 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748362235: New connection from 192.168.0.123:14867 on port 1883.
+1748362235: Client IoT_signal_player disconnected, not authorised.
+1748362338: mosquitto version 2.0.15 terminating
+1748362338: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748362341: mosquitto version 2.0.15 starting
+1748362341: Config loaded from /mosquitto/config/mosquitto.conf.
+1748362341: Opening ipv4 listen socket on port 1883.
+1748362341: Opening ipv6 listen socket on port 1883.
+1748362341: Opening websockets listen socket on port 9001.
+1748362341: mosquitto version 2.0.15 running
+1748362342: New connection from 192.168.0.123:14950 on port 1883.
+1748362342: New client connected from 192.168.0.123:14950 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748362344: New connection from 172.19.0.4:52135 on port 1883.
+1748362344: New client connected from 172.19.0.4:52135 as IoT_signal_player (p5, c1, k60, u'mqttbroker').
+1748362352: Client mqtt-explorer-19241c50 disconnected.
+1748362354: New connection from 192.168.0.123:14960 on port 1883.
+1748362354: New client connected from 192.168.0.123:14960 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748362356: New connection from 192.168.0.123:14961 on port 1883.
+1748362356: Client IoT_signal_player disconnected, not authorised.
+1748362428: Client IoT_signal_player closed its connection.
+1748362428: mosquitto version 2.0.15 terminating
+1748362428: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748362524: mosquitto version 2.0.15 starting
+1748362524: Config loaded from /mosquitto/config/mosquitto.conf.
+1748362524: Opening ipv4 listen socket on port 1883.
+1748362524: Opening ipv6 listen socket on port 1883.
+1748362524: Opening websockets listen socket on port 9001.
+1748362524: mosquitto version 2.0.15 running
+1748362525: New connection from 192.168.0.123:15088 on port 1883.
+1748362525: New client connected from 192.168.0.123:15088 as mqtt-explorer-19241c50 (p2, c1, k60, u'mqttbroker').
+1748362525: New connection from 172.19.0.2:57863 on port 1883.
+1748362525: New client connected from 172.19.0.2:57863 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748362526: New connection from 172.19.0.5:47337 on port 1883.
+1748362526: New client connected from 172.19.0.5:47337 as IoT_signal_player (p5, c1, k60, u'mqttbroker').
+1748362602: New connection from 192.168.0.123:54500 on port 1883.
+1748362602: Client IoT_signal_player disconnected, not authorised.
+1748362656: Client IoT_signal_tester disconnected.
+1748362657: New connection from 172.19.0.2:47781 on port 1883.
+1748362657: New client connected from 172.19.0.2:47781 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748362723: New connection from 192.168.0.123:54583 on port 1883.
+1748362723: Client IoT_signal_player disconnected, not authorised.
+1748362788: Client IoT_signal_tester disconnected.
+1748362789: New connection from 172.19.0.2:45513 on port 1883.
+1748362789: New client connected from 172.19.0.2:45513 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748362844: New connection from 192.168.0.123:54677 on port 1883.
+1748362844: Client IoT_signal_player disconnected, not authorised.
+1748362920: Client IoT_signal_tester disconnected.
+1748362922: New connection from 172.19.0.2:46613 on port 1883.
+1748362922: New client connected from 172.19.0.2:46613 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748362940: Client mqtt-explorer-19241c50 closed its connection.
+1748363253: Client IoT_signal_tester disconnected.
+1748363254: New connection from 172.19.0.2:45817 on port 1883.
+1748363254: New client connected from 172.19.0.2:45817 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748363385: Client IoT_signal_tester disconnected.
+1748363386: New connection from 172.19.0.2:39037 on port 1883.
+1748363386: New client connected from 172.19.0.2:39037 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748363516: Client IoT_signal_tester disconnected.
+1748363517: New connection from 172.19.0.2:51059 on port 1883.
+1748363517: New client connected from 172.19.0.2:51059 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748363648: Client IoT_signal_tester disconnected.
+1748363649: New connection from 172.19.0.2:35613 on port 1883.
+1748363649: New client connected from 172.19.0.2:35613 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748363779: Client IoT_signal_tester disconnected.
+1748363780: New connection from 172.19.0.2:58765 on port 1883.
+1748363780: New client connected from 172.19.0.2:58765 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748363910: Client IoT_signal_tester disconnected.
+1748363912: New connection from 172.19.0.2:41419 on port 1883.
+1748363912: New client connected from 172.19.0.2:41419 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364042: Client IoT_signal_tester disconnected.
+1748364043: New connection from 172.19.0.2:54015 on port 1883.
+1748364043: New client connected from 172.19.0.2:54015 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364173: Client IoT_signal_tester disconnected.
+1748364174: New connection from 172.19.0.2:39837 on port 1883.
+1748364174: New client connected from 172.19.0.2:39837 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364305: Client IoT_signal_tester disconnected.
+1748364306: New connection from 172.19.0.2:35757 on port 1883.
+1748364306: New client connected from 172.19.0.2:35757 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364436: Client IoT_signal_tester disconnected.
+1748364437: New connection from 172.19.0.2:55155 on port 1883.
+1748364437: New client connected from 172.19.0.2:55155 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364524: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748364567: Client IoT_signal_tester disconnected.
+1748364569: New connection from 172.19.0.2:38269 on port 1883.
+1748364569: New client connected from 172.19.0.2:38269 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364699: Client IoT_signal_tester disconnected.
+1748364700: New connection from 172.19.0.2:36087 on port 1883.
+1748364700: New client connected from 172.19.0.2:36087 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364831: Client IoT_signal_tester disconnected.
+1748364833: New connection from 172.19.0.2:52961 on port 1883.
+1748364833: New client connected from 172.19.0.2:52961 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748364964: Client IoT_signal_tester disconnected.
+1748364965: New connection from 172.19.0.2:49997 on port 1883.
+1748364965: New client connected from 172.19.0.2:49997 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365095: Client IoT_signal_tester disconnected.
+1748365097: New connection from 172.19.0.2:53279 on port 1883.
+1748365097: New client connected from 172.19.0.2:53279 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365227: Client IoT_signal_tester disconnected.
+1748365228: New connection from 172.19.0.2:35339 on port 1883.
+1748365228: New client connected from 172.19.0.2:35339 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365358: Client IoT_signal_tester disconnected.
+1748365360: New connection from 172.19.0.2:54367 on port 1883.
+1748365360: New client connected from 172.19.0.2:54367 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365490: Client IoT_signal_tester disconnected.
+1748365491: New connection from 172.19.0.2:60779 on port 1883.
+1748365491: New client connected from 172.19.0.2:60779 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365622: Client IoT_signal_tester disconnected.
+1748365623: New connection from 172.19.0.2:33839 on port 1883.
+1748365623: New client connected from 172.19.0.2:33839 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365753: Client IoT_signal_tester disconnected.
+1748365754: New connection from 172.19.0.2:51485 on port 1883.
+1748365754: New client connected from 172.19.0.2:51485 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748365884: Client IoT_signal_tester disconnected.
+1748365885: New connection from 172.19.0.2:35589 on port 1883.
+1748365885: New client connected from 172.19.0.2:35589 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366014: Client IoT_signal_tester disconnected.
+1748366015: New connection from 172.19.0.2:38303 on port 1883.
+1748366015: New client connected from 172.19.0.2:38303 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366145: Client IoT_signal_tester disconnected.
+1748366146: New connection from 172.19.0.2:51887 on port 1883.
+1748366146: New client connected from 172.19.0.2:51887 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366276: Client IoT_signal_tester disconnected.
+1748366277: New connection from 172.19.0.2:33487 on port 1883.
+1748366277: New client connected from 172.19.0.2:33487 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366325: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1748366407: Client IoT_signal_tester disconnected.
+1748366408: New connection from 172.19.0.2:49531 on port 1883.
+1748366408: New client connected from 172.19.0.2:49531 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366539: Client IoT_signal_tester disconnected.
+1748366540: New connection from 172.19.0.2:48477 on port 1883.
+1748366540: New client connected from 172.19.0.2:48477 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366670: Client IoT_signal_tester disconnected.
+1748366671: New connection from 172.19.0.2:43469 on port 1883.
+1748366671: New client connected from 172.19.0.2:43469 as IoT_signal_tester (p5, c1, k60, u'mqttbroker').
+1748366780: Client IoT_signal_player closed its connection.
+1748366780: Client IoT_signal_tester closed its connection.
+1748366780: mosquitto version 2.0.15 terminating
+1748366780: Saving in-memory database to /mosquitto/data//mosquitto.db.

@@ -1,0 +1,3 @@
+portainer:	admin		mqtttester-portainer
+mosquitto:	mqttbroker	mqttbroker-password
+

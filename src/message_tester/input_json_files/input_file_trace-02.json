@@ -1,0 +1,151 @@
+{
+"MessagePlayerVersion": "0.0.1",
+"trace" : [
+  {
+  "traceName" : "trace-02",
+  "traceLengthSeconds" : 120,
+  "traceTopicAmount" : 22,
+  "topics" : [
+
+      {
+        "topic" : "mqtt/DME/Torque_1_KCAN",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Torque_1_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Torque_2_KCAN",
+        "count" : 30,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Torque_2_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Wheel_torque_drivetrain",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Wheel_torque_drivetrain":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LDM/Delay_request_ACC",
+        "count" : 40,
+        "result" : [
+            { "schema": {"message":"ACC","source":"MQTT_TRACE","signals": {"Delay_request_ACC":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/AFS/Control_steering_assistance",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"AFS","source":"MQTT_TRACE","signals": {"Control_steering_assistance":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Wheel_torque_powertrain",
+        "count" : 45,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Wheel_torque_powertrain":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Torque_requirement",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Torque_requirement":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Torque_request",
+        "count" : 28,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Torque_request":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ACC/Torque_request",
+        "count" : 12,
+        "result" : [
+            { "schema": {"message":"ACC","source":"MQTT_TRACE","signals": {"Torque_request":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Gearbox_data",
+        "count" : 10,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Gearbox_data":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DXC/Target_torque_request",
+        "count" : 5,
+        "result" : [
+            { "schema": {"message":"DXC","source":"MQTT_TRACE","signals": {"Target_torque_request":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/VGSG/Status_of_nominal_torque_conversion",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"VGSG","source":"MQTT_TRACE","signals": {"Status_of_nominal_torque_conversion":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ARS/Alive_counters",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"ARS","source":"MQTT_TRACE","signals": {"Alive_counters":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Alive_central_gateway",
+        "count" : 14,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Alive_central_gateway":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/TEL/Alive_counter_phone",
+        "count" : 23,
+        "result" : [
+            { "schema": {"message":"TEL","source":"MQTT_TRACE","signals": {"Alive_counter_phone":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Steering_wheel_angle_KCAN",
+        "count" : 22,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Steering_wheel_angle_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Wheel_speed_KCAN",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Wheel_speed_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Operation_seat_adjustment_passenger",
+        "count" : 28,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Operation_seat_adjustment_passenger":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LDM/Requirement_wheel_torque_brake",
+        "count" : 49,
+        "result" : [
+            { "schema": {"message":"LDM","source":"MQTT_TRACE","signals": {"Requirement_wheel_torque_brake":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ACSM/Alive_counter_security",
+        "count" : 46,
+        "result" : [
+            { "schema": {"message":"ACSM","source":"MQTT_TRACE","signals": {"Alive_counter_security":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Wheel_torque_brake",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Wheel_torque_brake":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Status_central_locking_BFT",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Status_central_locking_BFT":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Status_central_locking_BFTH",
+        "count" : 13,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Status_central_locking_BFTH":{"raw_value":3, "unit":""}}}} ]
+      }
+   ]
+  }
+]
+}

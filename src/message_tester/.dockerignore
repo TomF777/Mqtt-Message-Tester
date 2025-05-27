@@ -1,0 +1,4 @@
+Dockerfile
+.env
+build_image.sh
+

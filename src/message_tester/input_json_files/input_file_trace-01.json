@@ -1,0 +1,686 @@
+{
+"MessagePlayerVersion": "0.0.1",
+"trace" : [
+  {
+  "traceName" : "trace-01",
+  "traceLengthSeconds" : 120,
+  "traceTopicAmount" : 112,
+  "topics" : [
+
+      {
+        "topic" : "mqtt/DME/Torque_1_KCAN",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Torque_1_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Torque_2_KCAN",
+        "count" : 30,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Torque_2_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Wheel_torque_drivetrain",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Wheel_torque_drivetrain":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LDM/Delay_request_ACC",
+        "count" : 40,
+        "result" : [
+            { "schema": {"message":"ACC","source":"MQTT_TRACE","signals": {"Delay_request_ACC":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/AFS/Control_steering_assistance",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"AFS","source":"MQTT_TRACE","signals": {"Control_steering_assistance":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Wheel_torque_powertrain",
+        "count" : 45,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Wheel_torque_powertrain":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Torque_requirement",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Torque_requirement":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Torque_request",
+        "count" : 28,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Torque_request":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ACC/Torque_request",
+        "count" : 12,
+        "result" : [
+            { "schema": {"message":"ACC","source":"MQTT_TRACE","signals": {"Torque_request":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Gearbox_data",
+        "count" : 10,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Gearbox_data":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DXC/Target_torque_request",
+        "count" : 5,
+        "result" : [
+            { "schema": {"message":"DXC","source":"MQTT_TRACE","signals": {"Target_torque_request":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/VGSG/Status_of_nominal_torque_conversion",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"VGSG","source":"MQTT_TRACE","signals": {"Status_of_nominal_torque_conversion":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ARS/Alive_counters",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"ARS","source":"MQTT_TRACE","signals": {"Alive_counters":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Alive_central_gateway",
+        "count" : 14,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Alive_central_gateway":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/TEL/Alive_counter_phone",
+        "count" : 23,
+        "result" : [
+            { "schema": {"message":"TEL","source":"MQTT_TRACE","signals": {"Alive_counter_phone":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Steering_wheel_angle_KCAN",
+        "count" : 22,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Steering_wheel_angle_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Wheel_speed_KCAN",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Wheel_speed_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Operation_seat_adjustment_passenger",
+        "count" : 28,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Operation_seat_adjustment_passenger":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LDM/Requirement_wheel_torque_brake",
+        "count" : 49,
+        "result" : [
+            { "schema": {"message":"LDM","source":"MQTT_TRACE","signals": {"Requirement_wheel_torque_brake":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ACSM/Alive_counter_security",
+        "count" : 46,
+        "result" : [
+            { "schema": {"message":"ACSM","source":"MQTT_TRACE","signals": {"Alive_counter_security":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Wheel_torque_brake",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Wheel_torque_brake":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Status_central_locking_BFT",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Status_central_locking_BFT":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Status_central_locking_BFTH",
+        "count" : 13,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Status_central_locking_BFTH":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Control_exterior_mirrors",
+        "count" : 27,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Control_exterior_mirrors":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Control_window_regulator_FAT",
+        "count" : 38,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Control_window_regulator_FAT":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Control_window_regulator_BFT",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Control_window_regulator_BFT":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CAS/Status_terminal",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"CAS","source":"MQTT_TRACE","signals": {"Status_terminal":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ACSM/Control_crash_shutdown_EKP",
+        "count" : 10,
+        "result" : [
+            { "schema": {"message":"ACSM","source":"MQTT_TRACE","signals": {"Control_crash_shutdown_EKP":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LDM/Requirement_angle_FFP",
+        "count" : 30,
+        "result" : [
+            { "schema": {"message":"LDM","source":"MQTT_TRACE","signals": {"Requirement_angle_FFP":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Acknowledgment_request_KOMBI",
+        "count" : 40,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Acknowledgment_request_KOMBI":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LDM/Display_ACC",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"LDM","source":"MQTT_TRACE","signals": {"Display_ACC":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ACC/Display_ACC",
+        "count" : 23,
+        "result" : [
+            { "schema": {"message":"ACC","source":"MQTT_TRACE","signals": {"Display_ACC":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZL/Operation_gear_selector_switch",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"SZL","source":"MQTT_TRACE","signals": {"Operation_gear_selector_switch":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZL/Operation_cruise_control_ACC",
+        "count" : 45,
+        "result" : [
+            { "schema": {"message":"SZL","source":"MQTT_TRACE","signals": {"Operation_cruise_control_ACC":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/GWS/Operation_gear_selection_switch_2",
+        "count" : 31,
+        "result" : [
+            { "schema": {"message":"GWS","source":"MQTT_TRACE","signals": {"Operation_gear_selection_switch_2":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Status_DSC_KCAN",
+        "count" : 24,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Status_DSC_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Speed_KCAN",
+        "count" : 14,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Speed_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Transmission_data_2",
+        "count" : 12,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Transmission_data_2":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SMG/Raw_data_longitudinal_acceleration",
+        "count" : 17,
+        "result" : [
+            { "schema": {"message":"SMG","source":"MQTT_TRACE","signals": {"Raw_data_longitudinal_acceleration":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Distance",
+        "count" : 30,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Distance":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Effect_iDrive_controller",
+        "count" : 36,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Effect_iDrive_controller":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/ARS/Status_ARS",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"ARS","source":"MQTT_TRACE","signals": {"Status_ARS":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/IHKA/Heat_flow_load_moment_climate",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"IHKA","source":"MQTT_TRACE","signals": {"Heat_flow_load_moment_climate":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Heat_flow_motor",
+        "count" : 25,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Heat_flow_motor":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CON/Operation_iDrive_controller",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"CON","source":"MQTT_TRACE","signals": {"Operation_iDrive_controller":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/PDC/Distance",
+        "count" : 16,
+        "result" : [
+            { "schema": {"message":"PDC","source":"MQTT_TRACE","signals": {"Distance":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/PDC/Acoustic_message",
+        "count" : 27,
+        "result" : [
+            { "schema": {"message":"PDC","source":"MQTT_TRACE","signals": {"Acoustic_message":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Motor_data",
+        "count" : 17,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Motor_data":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Display_gearbox_data",
+        "count" : 22,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Display_gearbox_data":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZL/Operation_Button_Audio_Telephone",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"SZL","source":"MQTT_TRACE","signals": {"Operation_Button_Audio_Telephone":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Operation_Air_distribution_driver",
+        "count" : 31,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Operation_Air_distribution_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZL/Button_push_M_Drive",
+        "count" : 32,
+        "result" : [
+            { "schema": {"message":"SZL","source":"MQTT_TRACE","signals": {"Button_push_M_Drive":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Operation_layering_seat_heating",
+        "count" : 36,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Operation_layering_seat_heating":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Operation_Air_distribution_passenger",
+        "count" : 17,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Operation_Air_distribution_passenger":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Operation_climate_front",
+        "count" : 26,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Operation_climate_front":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Operation_seat_heating_ventilation_driver",
+        "count" : 23,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Operation_seat_heating_ventilation_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Operation_seat_heating_ventilation_passenger",
+        "count" : 27,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Operation_seat_heating_ventilation_passenger":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZL/Operation_steering_column_adjustment",
+        "count" : 48,
+        "result" : [
+            { "schema": {"message":"SZL","source":"MQTT_TRACE","signals": {"Operation_steering_column_adjustment":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Operation_Active_seat_driver",
+        "count" : 10,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Operation_Active_seat_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Operation_active_backrest_driver",
+        "count" : 22,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Operation_active_backrest_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Flashing",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Flashing":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/AFS/Status_AFS",
+        "count" : 16,
+        "result" : [
+            { "schema": {"message":"AFS","source":"MQTT_TRACE","signals": {"Status_AFS":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Control_speed_step_control",
+        "count" : 17,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Control_speed_step_control":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Dimming",
+        "count" : 12,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Dimming":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Lamp_condition",
+        "count" : 13,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Lamp_condition":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Operation_night_vision",
+        "count" : 18,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Operation_night_vision":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NVC/Status_night_vision",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"NVC","source":"MQTT_TRACE","signals": {"Status_night_vision":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/RLS/Rain_sensor_wiper_speed",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"RLS","source":"MQTT_TRACE","signals": {"Rain_sensor_wiper_speed":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CAS/Status_remote_key",
+        "count" : 33,
+        "result" : [
+            { "schema": {"message":"CAS","source":"MQTT_TRACE","signals": {"Status_remote_key":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/IHKA/Status_climate_front_extended",
+        "count" : 44,
+        "result" : [
+            { "schema": {"message":"IHKA","source":"MQTT_TRACE","signals": {"Status_climate_front_extended":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SMFA/Status_operation_comfort_seat_driver",
+        "count" : 27,
+        "result" : [
+            { "schema": {"message":"SMFA","source":"MQTT_TRACE","signals": {"Status_operation_comfort_seat_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KBM/Status_wipers",
+        "count" : 12,
+        "result" : [
+            { "schema": {"message":"KBM","source":"MQTT_TRACE","signals": {"Status_wipers":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/PGS/Status_transmission_passive_access",
+        "count" : 29,
+        "result" : [
+            { "schema": {"message":"PGS","source":"MQTT_TRACE","signals": {"Status_transmission_passive_access":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Operation_Blinds_driver",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Operation_Blinds_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Navigation_graph",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Navigation_graph":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CAS/Control_remote_start_safety_vehicle",
+        "count" : 34,
+        "result" : [
+            { "schema": {"message":"CAS","source":"MQTT_TRACE","signals": {"Control_remote_start_safety_vehicle":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Control_roller_blinds",
+        "count" : 32,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Control_roller_blinds":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/GWS/Button_push_vertical_dynamics",
+        "count" : 16,
+        "result" : [
+            { "schema": {"message":"GWS","source":"MQTT_TRACE","signals": {"Button_push_vertical_dynamics":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/FLA/Control_High_Beam_Assistant",
+        "count" : 24,
+        "result" : [
+            { "schema": {"message":"FLA","source":"MQTT_TRACE","signals": {"Control_High_Beam_Assistant":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CAS/Central_locking_control",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"CAS","source":"MQTT_TRACE","signals": {"Central_locking_control":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Wheel_pressures_KCAN",
+        "count" : 10,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Wheel_pressures_KCAN":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Acceleration_data",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Acceleration_data":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DWA/DWA_alarm",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"DWA","source":"MQTT_TRACE","signals": {"DWA_alarm":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KOMBI/LCD_luminance",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"KOMBI","source":"MQTT_TRACE","signals": {"LCD_luminance":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KOMBI/Outside_temperature",
+        "count" : 18,
+        "result" : [
+            { "schema": {"message":"KOMBI","source":"MQTT_TRACE","signals": {"Outside_temperature":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Control_Monitor",
+        "count" : 17,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Control_Monitor":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EGS/Status_gear",
+        "count" : 16,
+        "result" : [
+            { "schema": {"message":"EGS","source":"MQTT_TRACE","signals": {"Status_gear":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Vehicle_inclination",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Vehicle_inclination":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KOMBI/Refueling_amount",
+        "count" : 15,
+        "result" : [
+            { "schema": {"message":"KOMBI","source":"MQTT_TRACE","signals": {"Refueling_amount":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/RLS/Status_driving_light",
+        "count" : 28,
+        "result" : [
+            { "schema": {"message":"RLS","source":"MQTT_TRACE","signals": {"Status_driving_light":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/RDC/Status_tire_pressure",
+        "count" : 38,
+        "result" : [
+            { "schema": {"message":"RDC","source":"MQTT_TRACE","signals": {"Status_tire_pressure":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DSC/Status_flat_tire_indicator",
+        "count" : 29,
+        "result" : [
+            { "schema": {"message":"DSC","source":"MQTT_TRACE","signals": {"Status_flat_tire_indicator":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EDCK/Damper_current",
+        "count" : 45,
+        "result" : [
+            { "schema": {"message":"EDCK","source":"MQTT_TRACE","signals": {"Damper_current":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KOMBI/Mileage_Range",
+        "count" : 47,
+        "result" : [
+            { "schema": {"message":"KOMBI","source":"MQTT_TRACE","signals": {"Mileage_Range":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Driver_display_RPM_range",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Driver_display_RPM_range":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/EKP/Status_electric_fuel_pump",
+        "count" : 26,
+        "result" : [
+            { "schema": {"message":"EKP","source":"MQTT_TRACE","signals": {"Status_electric_fuel_pump":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/NBT/Navigation_GPS_1",
+        "count" : 24,
+        "result" : [
+            { "schema": {"message":"NBT","source":"MQTT_TRACE","signals": {"Navigation_GPS_1":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Status_seat_back_lock_driver",
+        "count" : 21,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Status_seat_back_lock_driver":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/SZM/Status_seat_back_lock_passenger",
+        "count" : 11,
+        "result" : [
+            { "schema": {"message":"SZM","source":"MQTT_TRACE","signals": {"Status_seat_back_lock_passenger":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KOMBI/Status_OBC",
+        "count" : 22,
+        "result" : [
+            { "schema": {"message":"KOMBI","source":"MQTT_TRACE","signals": {"Status_OBC":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CAS/VIN_number",
+        "count" : 22,
+        "result" : [
+            { "schema": {"message":"CAS","source":"MQTT_TRACE","signals": {"VIN_number":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Electronic_Engine_Oil_Dipstick",
+        "count" : 27,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Electronic_Engine_Oil_Dipstick":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Start_speed",
+        "count" : 35,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Start_speed":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Vehicle_condition",
+        "count" : 38,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Vehicle_condition":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Status_gear_reverse",
+        "count" : 39,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Status_gear_reverse":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/DME/Power_management_battery_voltage",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"DME","source":"MQTT_TRACE","signals": {"Power_management_battery_voltage":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KGM/Window_regulator_position_FAT",
+        "count" : 41,
+        "result" : [
+            { "schema": {"message":"KGM","source":"MQTT_TRACE","signals": {"Window_regulator_position_FAT":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KBM/Window_regulator_position_FATH",
+        "count" : 28,
+        "result" : [
+            { "schema": {"message":"KBM","source":"MQTT_TRACE","signals": {"Window_regulator_position_FATH":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/KBM/Status_consumer_shutdown",
+        "count" : 20,
+        "result" : [
+            { "schema": {"message":"KBM","source":"MQTT_TRACE","signals": {"Status_consumer_shutdown":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/CAS/Run_on_time_power_supply",
+        "count" : 19,
+        "result" : [
+            { "schema": {"message":"CAS","source":"MQTT_TRACE","signals": {"Run_on_time_power_supply":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Status_solar_sensor",
+        "count" : 34,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Status_solar_sensor":{"raw_value":3, "unit":""}}}} ]
+      },
+      {
+        "topic" : "mqtt/LM/Status_light_extended_CKM",
+        "count" : 9,
+        "result" : [
+            { "schema": {"message":"LM","source":"MQTT_TRACE","signals": {"Status_light_extended_CKM":{"raw_value":3, "unit":""}}}} ]
+      }
+
+   ]
+  }
+]
+}
